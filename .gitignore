@@ -1,0 +1,25 @@
+# Секреты — никогда не коммить
+.env
+*.key
+*.pem
+**/secrets*
+
+# Hermes профиль (ключи, локальный конфиг)
+.hermes/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian локальное состояние
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# node
+node_modules/
+
+# Твои реальные посты не едут в шаблон-репозиторий
+vault-template/runs/active/*
+vault-template/runs/archive/*
+!vault-template/runs/active/.gitkeep
+!vault-template/runs/archive/.gitkeep
